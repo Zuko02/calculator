@@ -25,7 +25,8 @@ SECRET_KEY = 'django-insecure-i-2(vhca&s5xfto(f07dh(1omvx=#+6))6q^g*$m2juh4w(8&r
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['calculator-vzgi.onrender.com']
+
 
 
 # Application definition
@@ -137,4 +138,5 @@ TEMPLATES[0]['DIRS'] = [REACT_APP_DIR]
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOW_ALL_ORIGINS = True
+
 
